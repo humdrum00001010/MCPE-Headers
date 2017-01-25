@@ -1,7 +1,5 @@
 #pragma once
 
-
-
 class ScreenRenderer {
 public:
 	static void *singletonPtr;

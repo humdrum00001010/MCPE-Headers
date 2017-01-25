@@ -11,5 +11,4 @@ public:
 	virtual void sendBroadcast(NetworkIdentifier const&, Packet const&);
 	virtual void sendBroadcast(Packet const&);
 	virtual void flush(NetworkIdentifier const&);
-	
 };

@@ -2,10 +2,8 @@
 
 #include "Button.h"
 
-class BlankButton {
+class BlankButton : public Button {
 public:
-	
-	
 	virtual ~BlankButton();
 	virtual void tick();
 	virtual void tick(MinecraftClient*);
